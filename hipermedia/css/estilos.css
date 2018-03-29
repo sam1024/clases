@@ -1,0 +1,47 @@
+
+/*SELECTOR DE ETIQUETA*/
+img {
+
+    width: 100%;
+
+    /*CENTRAR LA IMAGEN */
+        
+        
+1}
+
+/*SELECTOR DE CLASE*/
+.texto {
+	color: red;
+}
+
+
+
+
+iframe {
+
+	border: 0;
+
+}
+
+
+
+/*SELECTOR DE ID*/
+
+#neg {
+
+    font-weight: bold;
+    font-size: 30px;
+
+}
+
+
+@media(min-width: 768px) {	
+	img {
+	   width:400px;
+margin: auto;
+        display: block;
+	}
+
+}
+
+media query
