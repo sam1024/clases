@@ -1,0 +1,94 @@
+/*@import url("fuentes.css");*/
+/*@import "fuentes.css";*/
+
+html {
+  font-size: 15px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+}
+
+header {
+  display: flex;
+  /*border: 1px solid red;*/
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #2C3E50;
+  color: #F0F3F4;
+}
+
+#icon_menu {
+  font-size: 2em;
+  margin: .3em;
+}
+#menu {
+  display: none;
+}
+
+#titulo {
+  font-size: 1.5em;
+}
+
+#div_carrito {
+  position: absolute;
+  right: .3em;
+}
+
+#num_items_cart {
+  font-size: 1.4em;
+  color: red;
+  position: absolute;
+  bottom: 1px;
+  right: 0.2em;
+  font-weight: bold;
+}
+
+#carrito {
+  /*position: absolute;*/
+  font-size: 1.9em;
+  margin-top: .8em;
+  right: .2em;
+}
+
+main {
+  margin-top: 4em;
+}
+
+.card {
+  margin: 0 0 .5em 0;
+}
+
+.descripcion {
+  font-size: 1.1em;
+  font-family: elmessiri;
+}
+
+.precio {
+  margin: -.7em 0 0.2em 0;
+  font-family: elmessiri;
+  font-size: 1.2em;
+  color: red;
+  margin: -1.2em 0 -0.1em 0;
+}
+
+.btn_addcart {
+  display: block;
+  padding: .2em;
+  font-family: elmessiri;
+  font-size: 1.3em;
+  color: #fff;
+  background-color: #2980B9;
+  margin-left: .5em;
+  border: .1em #fff;
+  border-radius: .2em;
+  width: 98%;
+  margin: auto;
+}
